@@ -1,0 +1,346 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.head {
+	width: 100%;
+	height: 70px;
+	background: url(head.jpg) no-repeat;
+}
+
+.big_icon {
+	position: relative;
+	float: left;
+	top: 70px;
+	margin-left: 50px;
+	background: url("big_icon.jpg") no-repeat;
+	width: 300px;
+	height: 300px;
+}
+
+p, a, div, span {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	position: relative;
+	float: left;
+	top: 50px;
+	width: 550px;
+	text-align: left;
+}
+
+.preinstall .header {
+	font-size: 33px; 
+	font-weight: bold;
+	color: #333;
+}
+
+.preinstall .promo {
+	font-size: 16px; 
+	font-weight: bold;
+	color: #777;
+	padding-top: 10px;
+}
+
+.preinstall .info {
+	font-size: 16px; 
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 30px;
+	color: #555;
+}
+
+.preinstall .upd {
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-right: 25px;
+	background: url(icon.jpg) no-repeat 25px 0;
+	height: 40px;
+}
+
+.preinstall .upd .updinfo {
+	color: #333;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 65px;
+	margin-top: 7px;
+}
+
+.preinstall .upd3 {
+	width: 100%;
+}
+
+.preinstall .upd3 .subinfo {
+	font-size: 14px;
+	color: #f00;
+	font-weight: normal;
+	margin-left: 65px;	
+}
+
+
+.preinstall .checkbox {
+	position: absolute;
+	top: 7px;
+}
+
+.preinstall .install_button {
+	width: 202px;
+	height: 34px;
+	background: url(install.jpg) no-repeat;
+	postion: relative;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.preinstall .install_button p {
+	color: #fff;
+	margin-left: 40px;
+	margin-top: 4px;
+	font-size: 23px;
+}
+
+.install {
+	top: 100px;
+}
+
+.install .header {
+	color: #e00;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.install .info {
+	color: #777;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.install .activation_button {
+	position: absolute;
+	margin-top: 20px;
+	right: 0;
+}
+
+.install .percent {
+	position: absolute;
+	margin-top: 20px;
+	left: 0;
+	font-size: 14px;
+	color: #777;
+}
+
+.install .act_button {
+	cursor: pointer; 
+	height: 40px; 
+	width: 170px; 
+	font-size: 17px;
+}
+
+
+.activation .header {
+	font-size: 35px; 
+	font-weight: bold;
+	color: #333;
+}
+
+.activation .promo {
+	font-size: 20px; 
+	font-weight: bold;
+	color: #555;
+	padding-top: 20px;
+}
+
+.activation .promo b {
+	color: #f00;
+	font-weight: bold;
+}
+
+.activation .promo a {
+	color: #009;
+	text-decoration: underline;
+}
+
+.activation .promo a:hover {
+	text-decoration: none;
+}
+
+
+.activation .info {
+	font-size: 16px; 
+	font-weight: bold;
+	padding-top: 30px;
+	color: #555;
+}
+
+.activation .info div {
+	margin: 0;
+	padding: 0;
+	width: 230px;
+	float: left;
+}
+
+.activation .install_button {
+	width: 202px;
+	height: 34px;
+	background: url(install.jpg) no-repeat;
+	postion: relative;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.activation .install_button p {
+	color: #fff;
+	margin-left: 30px;
+	margin-top: 4px;
+	font-size: 23px;
+}
+
+.abon_info a {
+	font-size: 12px;
+	color: #777;
+	text-decoration: underline;
+}
+
+.abon_info a:hover {
+	text-decoration: none;
+}
+
+.abon_info {
+	font-size: 12px;
+	color: #777;
+}
+
+.example {
+	font-size: 12px;
+	color: #333;
+	padding-bottom: 20px;
+	padding-left: 230px;
+}
+
+.activated .header {
+	font-size: 35px; 
+	font-weight: bold;
+	color: #333;
+}
+
+.activated .promo {
+	font-size: 20px; 
+	font-weight: bold;
+	color: #555;
+	padding-top: 20px;
+}
+
+.activated a {
+	color: #00f;
+	text-decoration: underline;
+}
+
+.activated a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* forms */
+label {
+ font-weight: bold;
+ cursor: pointer;
+}
+ .form-item label {
+  margin-bottom: 2px;
+  margin-right: 8px;
+ }
+
+label.option {
+ font-weight: 400;
+ color: #000;
+}
+.form-item {
+ margin: 16px 0;
+}
+ .form-item .description {
+  color: #666;
+  margin-top: 2px;
+  clear: both;
+  font-size: 10px;
+  line-height: 14px;
+ }
+input.form-text, textarea, select { 
+ border: 1px solid #666;
+}
+input.form-text:focus, textarea:focus, select:focus { 
+ border-color: #aaaaaa; 
+}
+input.form-text, textarea {
+ padding: 5px;
+}
+.form-submit {
+ cursor: pointer;
+}
+.form-checkbox {
+ border: none;
+ padding: 0;
+}
+
+.form-item-submit {
+ margin-top: 44px;
+ background:#4575ca url(../images/chrome/button_install.jpg) no-repeat;
+ width: 295px;
+ height: 75px;
+ overflow: hidden;
+ text-align: center;
+ color: #fff;
+ font-size: 18px;
+ line-height: 66px;
+ position: relative;
+}
+ .g-page-firefox .form-item-submit {
+  background-color: #f2c52c;
+  background-image: url(../images/firefox/button_install.jpg);
+  width: 328px;
+  height: 65px;
+  font-size: 26px;
+  line-height: 56px;
+ }
+ .g-page-opera .form-item-submit {
+  background-color: #2e2e2e;
+  background-image: url(../images/opera/button_install.jpg);
+  width: 253px;
+  height: 49px;
+  font-size: 18px;
+  line-height: 42px;
+ }
+ .g-page-msie .form-item-submit {
+  background-color: #368dea;
+  background-image: url(../images/msie/button_install.jpg);
+  width: 202px;
+  height: 34px;
+  font-size: 18px;
+  line-height: 30px;
+ }
+  .form-item-submit input {
+   position: absolute; left: 0; top:0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   filter: alpha(opacity=0);
+  }
+/* end - forms */
